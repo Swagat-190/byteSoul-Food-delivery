@@ -34,10 +34,7 @@ ByteSoul-FoodDelivery/
 ├─ UserService/
 └─ README.md
 
-yaml
-Copy code
 
----
 
 ## Setup Instructions
 
@@ -47,19 +44,18 @@ git clone https://github.com/Swagat-190/byteSoul-Food-delivery.git
 cd ByteSoul-Food-delivery
 Navigate to a microservice
 
-bash
-Copy code
+
 cd MenuService/MenuService
 Build the project
 
 bash
-Copy code
+
 ./mvnw clean package      # Linux/macOS
 mvn clean package         # Windows
 Run the service
 
 bash
-Copy code
+
 java -jar target/MenuService-0.0.1-SNAPSHOT.jar
 Repeat for other microservices.
 
@@ -99,17 +95,5 @@ Create a pull request
 License
 MIT License
 
-yaml
-Copy code
 
----
 
-You just need to:  
-
-1. Save this as **`README.md`** in your repo root.  
-2. Open Git Bash in the root folder:  
-
-```bash
-git add README.md
-git commit -m "Add professional README with badges"
-git push origin main
