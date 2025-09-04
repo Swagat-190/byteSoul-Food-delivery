@@ -1,0 +1,20 @@
+# Java / Spring Boot
+*.class
+*.log
+*.jar
+*.war
+*.iml
+/.idea/
+/target/
+/bin/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment files
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
